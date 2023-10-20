@@ -1,6 +1,6 @@
 package ex02;
 
-public class O1_operation3 {
+public class O3_operation {
 
 	public static void main(String[] args) {
 		

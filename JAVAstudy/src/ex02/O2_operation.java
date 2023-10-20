@@ -1,6 +1,6 @@
 package ex02;
 
-public class O1_operation2 {
+public class O2_operation {
 
 	public static void main(String[] args) {
 		//산술 연산자
