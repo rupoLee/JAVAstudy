@@ -1,6 +1,6 @@
 package ex04;
 
-public class O4_araay2 {
+public class O4_Araay2 {
 
 	public static void main(String[] args) {
 		
