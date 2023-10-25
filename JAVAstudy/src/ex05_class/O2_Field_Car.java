@@ -1,0 +1,22 @@
+package ex05_class;
+
+public class O2_Field_Car {
+
+	public static void main(String[] args) {
+		//외부 필드를 사용하기 위해 객체 생성
+		Car myCar = new Car();
+		
+		//필드값 읽기
+		System.out.println("제작회사 : " + myCar.company);
+		System.out.println("모델명 : " + myCar.model);
+		System.out.println("색 : " + myCar.color);
+		System.out.println("최고속도 : " + myCar.maxSpeed);
+		System.out.println("현재속도 : " + myCar.speed);
+		
+		//필드값 변경
+		myCar.speed = 60;
+		System.out.println("변경 된 현재속도 : " + myCar.speed);
+
+	}
+
+}
