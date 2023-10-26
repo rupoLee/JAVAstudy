@@ -1,6 +1,6 @@
 package ex05_class;
 
-public class Car {
+public class O2_1_Car {
 	//필드
 	String company = "현대자동차";
 	String model = "그랜저";

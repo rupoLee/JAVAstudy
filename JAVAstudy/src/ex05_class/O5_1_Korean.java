@@ -1,6 +1,6 @@
 package ex05_class;
 
-public class Korean {
+public class O5_1_Korean {
 	String nation = "대한민국";
 	String name;
 	String ssn;
@@ -14,7 +14,7 @@ public class Korean {
 //		//name = name; >동일해서 생성자 내부에서 필드 접근 안됨 / 동일하면 매개변수가 사용 우선순위 높음
 //	}
 	//수정
-	public Korean(String name, String ssn) {
+	public O5_1_Korean(String name, String ssn) {
 		
 		this.name = name;
 		this.ssn = ssn;

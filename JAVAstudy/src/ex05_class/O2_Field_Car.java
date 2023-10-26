@@ -4,7 +4,7 @@ public class O2_Field_Car {
 
 	public static void main(String[] args) {
 		//외부 필드를 사용하기 위해 객체 생성
-		Car myCar = new Car();
+		O2_1_Car myCar = new O2_1_Car();
 		
 		//필드값 읽기
 		System.out.println("제작회사 : " + myCar.company);

@@ -4,7 +4,7 @@ public class O3_FIeldInitValue {
 
 	public static void main(String[] args) {
 		//필드값 출력
-		FIeldInitValue fiv = new FIeldInitValue();
+		O3_1_FIeldInitValue fiv = new O3_1_FIeldInitValue();
 		
 		System.out.println("byteField : " + fiv.byteField);
 		System.out.println("shortField : " + fiv.shortField);
