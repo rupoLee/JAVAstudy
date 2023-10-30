@@ -1,4 +1,4 @@
-package ex06_import2;
+package ex06_2;
 
 public class BigWidthTire {
 

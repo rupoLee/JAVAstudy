@@ -1,7 +1,7 @@
 package ex06;
 
-import ex06_import1.*;//*은 패키지의 모든 class
-import ex06_import2.*;
+import ex06_1.*;
+import ex06_2.*;
 
 public class O1_Car_import {
 	//필드
@@ -17,6 +17,6 @@ public class O1_Car_import {
 	 * 패키지 전체 기술
 	 * */
 //	Tire tire = new Tire();
-	ex06_import1.Tire tire1 = new ex06_import1.Tire();
-	ex06_import2.Tire tire2 = new ex06_import2.Tire();
+	ex06_1.Tire tire1 = new ex06_1.Tire();
+	ex06_2.Tire tire2 = new ex06_2.Tire();
 }

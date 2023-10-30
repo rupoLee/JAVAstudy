@@ -1,4 +1,4 @@
-package ex06_import1;
+package ex06_1;
 
 public class Tire {
 
