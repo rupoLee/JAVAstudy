@@ -4,6 +4,7 @@ public class O1_Phone {
 	public static void main(String[] args) {
 		
 		//O1_2_DmbCellPhone 객체 생성
+		//클래스 상속
 		O1_2_DmbCellPhone dmb = new O1_2_DmbCellPhone("자바폰", "검정", 10);
 		
 		//O1_1_CellPhone에게 상속받은 필드
@@ -18,6 +19,12 @@ public class O1_Phone {
 		dmb.bell();
 		dmb.sendVoice("여보세요");
 		dmb.receiveVoice("안녕하세요. 홍길동인데요");
+		dmb.sendVoice("아~예, 반갑습니다.");
+		dmb.hangUp();
 		
+		//O1_2_DmbCellPhone에게 상속받은 메소드 호출
+		dmb.turnOnDmb();
+		dmb.changeChannelDmb(12);
+		dmb.turnOffDmb();
 	}
 }
