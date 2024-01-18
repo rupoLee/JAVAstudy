@@ -5,7 +5,7 @@ public class O8_2_Car {
 	//필드
 	/*
 	O8_1_Tire frontLeftTire = new O8_1_Tire("앞왼쪽", 6);
-	O8_1_Tire frontRightTire = new O8_1_Tire("앞오른쪽", 2);
+	O8_1_Tire frontRightTire = new O8_1_Tire("앞오른쪽", 2);	//O8_1_Tire frontRightTire = new O8_1_KumhoTire("앞오른쪽", 13);으로 변경
 	O8_1_Tire backLeftTire = new O8_1_Tire("뒤왼쪽", 3);
 	O8_1_Tire backRightTire = new O8_1_Tire("뒤오른쪽", 4);
 	*/
@@ -25,7 +25,7 @@ public class O8_2_Car {
 			stop();
 			return 1;
 		}
-		if(frontRightTire.roll() == false) {	//.roll()은 O8_1_KumhoTire의 .roll()로 실행
+		if(frontRightTire.roll() == false) {	//.roll()은 O8_1_KumhoTire의 .roll()로 실행		> 오버라이딩이(재정의) 되어 있기 때문, 안되어 있었다면 O8_1_Tire.roll() 실행
 			stop();
 			return 2;
 		}
