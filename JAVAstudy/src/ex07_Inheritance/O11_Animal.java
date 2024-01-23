@@ -5,7 +5,7 @@ package ex07_Inheritance;
 
 추상 메소드 : 메소드 선언만 있거 {}가 없음
 자식 클래스는 반드시 추상메소드를 재정의(오버라이딩) 후 실행 내용 작성 해야함
-ex) 컨트롤에서 service > serviceImpl
+ex) 컨트롤에서 service(추상메소드)(인터페이스지만) > serviceImpl
 
 */
 
